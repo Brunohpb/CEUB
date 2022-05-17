@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS 19 - Texto</title>
+    <style>
+        body{
+            color: rgb(87,38,3);
+            font-size: large;
+            background-color: hsl(58, 56%, 80%);
+            line-height: 1.8;
+            font-family: fantasy;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            letter-spacing: 5px;
+            text-decoration: dashed;
+            text-shadow: 2px 3px rgb(121,6,228);
+            line-height: 0.8;
+        }
+        h2{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-indent: 50px;
+            letter-spacing: -3px;
+        }
+        .p1{
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+        .classeMaiuscula{
+            text-transform: uppercase;
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Exemplo 19 - Texto </h1>
+    <h2>Subtitutlo </h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fuga vitae, sunt tenetur aliquid
+            molestiae totam deserunt blanditiis maxime tempore necessitatibus distinctio sed nobis ullam! Voluptas
+            architecto eius voluptate ea.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis qui distinctio pariatur atque,
+            libero, aliquam temporibus laudantium ducimus consectetur, voluptatem reprehenderit culpa eligendi sunt!
+            Ratione voluptate harum in cupiditate!
+        </p>
+    </div>
+    <div>
+        <h2>Exemplo de direção do texto</h2>
+        <p class="p1">Teste de direção do texto</p>
+    </div>
+    <div>
+        <h2>Exemplo de transfromação de texto</h2>
+        <p class="classeMaiuscula" >Convertendo texto minusculo em maiusculo</p>
+    </div>
+</body>
+
+</html>

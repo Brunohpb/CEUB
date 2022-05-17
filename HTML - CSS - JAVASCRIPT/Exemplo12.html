@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 12</title>
+</head>
+<body>
+    <h1>Exemplo 12 HTML - Formulários </h1> 
+    <h2>Botões Radio, checkbox, min e max</h2>
+    <form action="paginaDestino.aspx" method="post">
+        <div>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="">Nome</label>
+                <input type="text" name = "txtNome" id="textNome">
+                <br>
+                <br>
+                <label for="">Ano Nascimento</label>
+                <input type="number" name = "txtAnoNascimento" id="txtAnoNascimento" min="1950" max="2022">
+                <br>
+                <br>
+                <label for="">Cor favorita</label>
+                <input type="color" name = "txtCorFavorita" id="textCorFavorita">
+                <br>
+                <br>
+                <div>
+                    <p>Região do Domicilio</p>
+                    <input type="radio" name="rdDomicilio" id="rdDomicilio" value="1"> Centro Oeste
+                    <input type="radio" name="rdDomicilio" id="rdDomicilio" value="2"> Norte
+                    <input type="radio" name="rdDomicilio" id="rdDomicilio" value="3"> Nordeste
+                    <input type="radio" name="rdDomicilio" id="rdDomicilio" value="4"> Sul
+                    <input type="radio" name="rdDomicilio" id="rdDomicilio" value="5"> Sudeste
+                </div>
+                <div>
+                    <p>Locais Favoritos</p>
+                    <input type="checkbox" name="chkLocal" id="chkLocal" value="1"> Praia
+                    <input type="checkbox" name="chkLocal" id="chkLocal" value="2"> Fazenda
+                    <input type="checkbox" name="chkLocal" id="chkLocal" value="3"> Montanha
+                    <input type="checkbox" name="chkLocal" id="chkLocal" value="4"> Campo
+                    <input type="checkbox" name="chkLocal" id="chkLocal" value="5"> Cachoeira
+                </div>
+            </fieldset>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>

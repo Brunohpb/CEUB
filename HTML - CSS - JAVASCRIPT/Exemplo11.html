@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11</title>
+</head>
+<body>
+    <h1>Exemplo 11 HTML - Formulários </h1> 
+    <form action="paginaDestino.php" method="get">
+        <div>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="">CPF</label>
+                <input type="number" name = "txtCPF" id="textCPF">
+                <br>
+                <br>
+                <label for="">Nome</label>
+                <input type="text" name = "txtNome" id="textNome">
+                <br>
+                <br>
+                <label for="">Nome da Mãe</label>
+                <input type="text" name = "txtNomeMae" id="textNomeMae">
+                <br>
+                <br>
+                <label for="">Data de Nascimento</label>
+                <input type="date" name = "txtDate" id="textDate">
+                <br>
+                <br>
+                <label for="">E-mail</label>
+                <input type="email" name = "txtemail" id="textemail">
+            </fieldset>
+            <fieldset>
+                <legend>Dados Gerais</legend>
+                <label for="">Estado Civil </label>
+                <select name="cboEstadoCivil" id="cboEstadoCivil">
+                    <option value="0">Selecione</option>
+                    <option value="1">Solteiro</option>
+                    <option value="2">Casado</option>
+                    <option value="3">Viuvo</option>
+                    <option value="4">União Estavel</option>
+                    <option value="5">Outros</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Telefone</label>
+                <input type="text" name = "txtTelefone" id="textTelefone">
+                <br>
+                <br>
+                <label for="">Departamento</label>
+                <select id="cboDepartamento">
+                    <option value="0">Selecione</option>
+                    <option value="1">DRH</option>
+                    <option value="2">DITEC</option>
+                    <option value="3">DINFRA</option>
+                    <option value="4">DPISCO</option>
+                    <option value="5">Outros</option>
+                </select>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>
