@@ -1,0 +1,39 @@
+h1{
+    color: darkcyan;
+    font-family: cursive;
+    background-color: darkkhaki;
+}
+
+h2{
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+}
+
+#div1{
+    margin: 10px;
+    padding: 10px;
+    border-left: 5px solid green;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+#div2{
+    margin: 10px;
+    padding: 10px;
+    border-left: 5px solid rgb(232, 10, 154);
+    background-color: rgba(232, 10, 154, 0.2);
+}
+
+.classe1{
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: azure;
+}
+
+.classe2{
+    font-size: 15px;
+    font-weight: bold;
+    color: chartreuse;
+    background-color: black;
+}
