@@ -1,0 +1,19 @@
+@page "/"
+@using System.Net.Http;
+
+<h1>Projeto 2</h1>
+
+<div class="alert alert-primary" role="alert">
+  Eae Professor, Boa noite/Bom dia!
+</div>
+
+@code{
+   private HttpClient httpClient;
+   string End = "";
+   protected override async Task OnInitializedAsync()
+    {
+        //var retorno = httpClient.GetAsync("https://viacep.com.br/ws/71940540/json");
+        //End = retorno.Result.logradouro;
+    }
+}
+
