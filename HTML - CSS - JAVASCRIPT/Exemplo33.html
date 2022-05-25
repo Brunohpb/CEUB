@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 33 - JavaScript</title>
+    <style>
+        .div1 {
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo 33 - evento MouseOver e MouseOut</h1>
+    <div id="divTexto" class="div1" onmouseover="mOver(this)" onmouseout="mOut(this)" Clique aqui para alterar o estilo da div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, expedita sequi unde, asperiores earum
+            assumenda inventore labore neque mollitia nihil aliquam rem impedit consequuntur error nemo vitae officia
+            culpa dolores?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat natus sit fuga delectus minus
+            molestiae, eaque consectetur ut nihil. Aliquid numquam quos ullam earum repellat sapiente inventore amet?
+            Fugit.</p>
+    </div>
+    <script>
+        function mOver(obj){
+            obj.innerHtml ="A div mudou de cor ao passar o mouse";
+            obj.style.backgroundColor='Red';
+            obj.style.color='aliceblue';
+        }
+        function mOut(obj){
+            obj.innerHtml ="A div voltou";
+            obj.style.backgroundColor='Blue';
+            obj.style.color='black';
+        }
+    </script>
+</body>
+
+</html>
