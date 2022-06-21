@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 37 - uso do prompt </title>
+</head>
+<body>
+    <h1>Exemplo 37 - uso do prompt</h1>
+    <script>
+        var idade;
+        var nome;
+        peso = window.prompt("Digite o seu peso:");
+        altura = window.prompt ("E agora informe sua altura: ");
+        resultado = ((peso / (altura * altura)) * 100)
+        if(resultado < 18.5){
+            document.write(resultado) 
+            document.write(" Abaixo do peso normal")
+        }
+        if(resultado >= 18.5 && resultado <= 24.9){
+            document.write(resultado) 
+            document.write(" Peso normal")
+        }
+        if(resultado >= 25 && resultado <= 29.9){
+            document.write(resultado) 
+            document.write(" Exesso de peso")
+        }
+        if(resultado >= 30 && resultado <= 34.9){
+            document.write(resultado) 
+            document.write(" Obesidade 1")
+        }
+        /*
+        if ((idade > 0) && (idade > 17)){
+            alert(nome + " você é maior de idade");
+        }
+        else {
+            alert(nome + " você é menor de idade");
+        }*/
+    </script>
+</body>
+</html>

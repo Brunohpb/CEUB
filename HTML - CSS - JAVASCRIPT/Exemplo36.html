@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 36 - uso do prompt </title>
+</head>
+<body>
+    <h1>Exemplo 36 - uso do prompt</h1>
+    <script>
+        var idade;
+        var nome;
+        nome = window.prompt("Digite o seu nome:");
+        idade = window.prompt ("E agora informe sua idade");
+        resultado = ((idade > 0) && (idade > 17))? nome + " você é maior de idade": nome + " você é menor de idade";
+        document.write(resultado) 
+        /*
+        if ((idade > 0) && (idade > 17)){
+            alert(nome + " você é maior de idade");
+        }
+        else {
+            alert(nome + " você é menor de idade");
+        }*/
+    </script>
+</body>
+</html>

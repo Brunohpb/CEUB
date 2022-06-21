@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exemplo 42 - JavaScript pilhah1</title>
+</head>
+
+<body>
+ <h1>Exemplo JavaScrip - Pilha</h1>
+ <p>São estruturas de dados do tipo LIFO (last-in first-out), onde o último elemento a ser inserido, será o primeiro
+  a ser retirado.</p>
+ <p> Em JavaScript usamos o push para inserir um elemento no topo da pilha e pop para remove-los</p>
+ <p>Podemos ainda usar outros métodos na pilha, por exemplo, podemos usar o métodos sort parra ordenar de forma
+  crescente a nossa pilha.</p>
+ <script>
+  var ultimo;
+  var vetor = [];
+  vetor.push("Maria");
+  vetor.push("Pedro");
+  vetor.push("Joao");
+  vetor.push("Carlos");
+  vetor.push(1);
+  vetor.push(7);
+  vetor.push(2);
+  vetor.push(3);
+  vetor.push(5);
+  vetor.push(4);
+  vetor.push(6);
+  vetor.push("Rogério");
+  vetor.push("Michelle");
+  document.writeln(vetor);
+  document.writeln('</br>');
+
+  ultimo = vetor.pop();
+  document.writeln('<h2> O valor do ultimo elemento a entrar foi ' + ultimo + ' ao aplicar o método pop teremos o seguinte pilha: </h2>');
+  document.writeln(vetor);
+  document.writeln('</br>');
+  document.writeln('<h2> O meu vetor ordenado pelo método sort é: </h2>');
+  document.writeln(vetor.sort());
+
+ </script>
+
+
+</body>
+
+</html>

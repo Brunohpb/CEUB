@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exemplo JavaScript 39 - Método IndexOf </title>
+</head>
+<body>
+  <h1>Exemplo JavaScript Método IndexOf </h1>
+  <p>O método IndexOf do javascript é utilizado para retornar o indice de um vetor a partir de um valor.</p>
+  <p>Por exemplo, dados os vetores: vetor1 (a,b,c,d)</p>
+  <p>O vetor2(1,2,3,4)</p>
+  <p>E o vetor3 ("jose", "maria", "joão", "Pedro")</p>
+  <p>Utilizamos o método concat para juntar os vetors 2 e 3 ao vetor teriamos ....</p>
+  <script>
+   var vetor1 =new Array('a','b','c','d');
+   var vetor2=new Array(1,2,3,4);
+   var vetor3=new Array("Jose", "Maria", "João", "Pedro");
+   var resultado = vetor1.concat(vetor3, vetor2);
+   var indice = resultado.indexOf(4);
+   document.writeln("<h1> O vetor resultado é: </h1>");
+   document.writeln(resultado);
+   document.writeln("</br>")
+   document.writeln("<h1> O indice do vetor resultado cujo valor é 4 é: " +indice+ '</h1>');
+  
+  </script>
+</body>
+</html>
