@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> Exemplo 2 Bootstrap </title>
+</head>
+
+<body>
+    <div class="container-sm">
+        <h1 class="text-info">Exemplo 2 Booststrap</h1>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <strong>Uso de cores contextuais</strong>
+        </div>
+        <div></div>
+        <p class="text-success"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium expedita, incidunt reiciendis
+            cupiditate aliquam molestias dicta, minima veniam sapiente ipsum ab tempore, laboriosam ex delectus! Ut
+            maiores quaerat doloribus.
+        </p>
+        <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis quas doloribus tempora cumque modi
+            nisi, ea dolorum at sed! Quae deserunt inventore doloremque! Consectetur sint necessitatibus quisquam odio
+            repudiandae!</p>
+        </div>
+        <div>
+            <h2>Exemplos de tabelas com Booststrap</h2>
+            <table class="table table-striped table-holver table-success table-responsive">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Nacionalidade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Bruno</td>
+                            <td>Henrique</td>
+                            <td>Brasiliero</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Yasmin</td>
+                            <td>Rodrigues</td>
+                            <td>Brasiliera</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Miguel</td>
+                            <td>Mesquita</td>
+                            <td>Brasiliero</td>
+                        </tr>
+                    </tbody>
+            </table>
+            
+        </div>
+
+        <script>
+            var alertList = document.querySelectorAll('.alert');
+            alertList.forEach(function (alert) {
+                new bootstrap.Alert(alert)
+            })
+        </script>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
