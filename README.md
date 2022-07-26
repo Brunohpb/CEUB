@@ -1,1 +1,1 @@
-# Repositório sobre aprendizados de HTML, CSS e JAVASCRIPT
+# Repositório de Desenvolvimento em linguagens de programação.
